@@ -75,13 +75,13 @@ def login(_user, password):
     return login_token, userid
 
 
-def main(_user, _passwd, _step):
-     print(_user)
-     print(_passwd)
-     print(_step)
+def main(_user, _passwd, _step)
     """
     主函数
     """
+    print(_user)
+    print(_passwd)
+    print(_step)
     _user = str(_user)
     password = str(_passwd)
     _step = str(_step)
