@@ -76,6 +76,9 @@ def login(_user, password):
 
 
 def main(_user, _passwd, _step):
+     print(_user)
+     print(_passwd)
+     print(_step)
     """
     主函数
     """
