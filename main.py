@@ -483,7 +483,7 @@ def wxpush(msg, usr, corpid, corpsecret, agentid=1000002):
     if corpid == '':
         print("[注意] 未提供corpid，不进行企业微信推送！")
     elif corpsecret == '':
-        print("[注意] 未提供corpsecret，不进行企业微信推送！")
+        print("[注意]  未提供corpsecret，不进行企业微信推送！")
     else:
         send_message(msg, usr)
 
