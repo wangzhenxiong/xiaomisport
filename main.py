@@ -75,7 +75,7 @@ def login(_user, password):
     return login_token, userid
 
 
-def main(_user, _passwd, _step)
+def main(_pmode,_pkey,_user, _passwd, _step)
     """
     主函数
     """
