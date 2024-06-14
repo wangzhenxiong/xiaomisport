@@ -23,10 +23,11 @@ jobs:
           python-version: 3.7
       - name: 开始
         run: |
+          pip install --upgrade pip
           pip install requests
           pmode='${{ secrets.PMODE }}'
           pkey='${{ secrets.PKEY }}'
           user='${{ secrets.USER }}'
           pwd='${{ secrets.PWD }}'
           step='${{ secrets.STEP }}'
-          python3 main.py ${pmode} ${pkey} ${user} ${pwd} ${step}
+          python3 xiaomisport-ql.py ${pmode} ${pkey} ${user} ${pwd} ${step}
