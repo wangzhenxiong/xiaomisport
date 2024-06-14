@@ -30,4 +30,4 @@ jobs:
           user='${{ secrets.USER }}'
           pwd='${{ secrets.PWD }}'
           step='${{ secrets.STEP }}'
-          python3 xiaomisport-ql.py ${pmode} ${pkey} ${user} ${pwd} ${step}
+          python3 main.py ${pmode} ${pkey} ${user} ${pwd} ${step}
